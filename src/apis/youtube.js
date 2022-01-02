@@ -7,6 +7,5 @@ export default axios.create({
     type: 'video',
     maxResults: 5,
     key: process.env.REACT_APP_YOU_TUBE_API_KEY,
-
   }
 });
